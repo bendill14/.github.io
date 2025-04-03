@@ -1,1 +1,6 @@
-
+name: user-injector
+  url: https://github.com/bendill14/user-injector.git
+  description: Créer des utilisateurs dans l’AD à partir d’un CSV
+- name: tssr-linux-debian-post-install
+  url: https://github.com/bendill14/tssr-linux-debian-post-install.git
+  description: Tools utilie après une installation de debian Linux
