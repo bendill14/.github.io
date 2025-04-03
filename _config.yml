@@ -19,15 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 title: bendill14
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+description: >- Mes Projets GitHub pour ma formation TSSR 
+  
+#baseurl: "" # the subpath of your site, e.g. /blog
+url:- name: user-injector
+  url: https://github.com/bendill14/user-injector.git
+  description: Créer des utilisateurs dans l’AD à partir d’un CSV
+- name: tssr-linux-debian-post-install
+  url: https://github.com/bendill14/tssr-linux-debian-post-install.git
+  description: Tools utilie après une installation de debian Linux
+github_username:  bendill14
 
 # Build settings
 theme: minima
